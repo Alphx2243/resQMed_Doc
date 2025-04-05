@@ -1,7 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Layout } from './components/Layout';
+import  Layout from './components/Layout';
 import { Dashboard } from './pages/Dashboard';
 import { Appointments } from './pages/Appointments';
 import { Patients } from './pages/Patients';
